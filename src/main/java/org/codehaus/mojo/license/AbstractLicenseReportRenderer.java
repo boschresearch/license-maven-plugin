@@ -214,6 +214,7 @@ public abstract class AbstractLicenseReportRenderer
         {
             renderErrorIcon();
         }
+        sink.tableCell_();
 
         sink.tableCell();
         String gav = getGAV( details );
